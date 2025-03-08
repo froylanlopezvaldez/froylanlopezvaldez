@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+header, nav,main, footer {
+    width: 100%;
+    padding: 50px;
+    background-color: #ba560b;
+    color:#FFF2F2;
+}
+header,footer{
+    text-align: center;
+    font-size: 48px;
+}
+nav{
+    height: auto;
+    background-color: #643403;
+}
+nav ul{
+    text-align: center;
+    color: white;
+}
+nav ul li{
+    list-style-type: none; 
+    width: 10%;
+    min-width: 100px;
+    height: 30px;
+    background-color: #FFF2F2;
+    color: white;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+main{
+    height: auto;
+    background-color: #cc8e58;
+    color:#ffffff;
+}
+footer{
+    font-size: 24px;
+    
+}
+section{
+    width: 80%;
+    height: auto;
+    background-color: #694305;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+}
+p{
+    margin-top: 50px;
+    
+}
+h2{
+    color: ghostwhite;
+}
+ h1{
+    width: 80%;
+    display: inline-block;
+    text-align: center;
+           }
+img{
+    width: 50%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+img_gif{
+    width: 30%;
+    border-radius: 50%;
+}
+img_float{
+    width: 20%;
+    min-width: 10%;
+}
+#img_izq{
+    float: left;
+    margin: 0px;
+    margin-right: 20px;
+}
+#img_der{
+    float: right;
+    margin: 0px;
+}
+#fondo{
+    height: 300px;
+    background-image: url("../imagenes/pareja.jpg");
+    background-size: cover;
+}
+#img icono{
+    width: 2%;
+}
+foto de pefil p{
+    width: 10px;
+    display: flex;
+}
+Video inframe{
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 30px;
+}
+.box_videos section{
+    width: 45%;
+    min-width: 360px;
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.box_videos{
+    text-align: center;
+}
+.box_videos section p{
+    text-align: justify;
+}
+h1{
+    font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+form {
+    width: 50%;
+    background-color: darkgrey;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: darkblue;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+input[type=text], input[type=password]{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #421e00;
+    color: white;
+    border: 2px solid #f9b703;
+    border-radius: 10px;
+}
+input[type=text]:focus, input[type=password]:focus{
+    background-color: burlywood;
+    color: aliceblue;
+    font-weight: bold;
+    border: 5px solid white;
+}
+label{
+    font-weight: bolder;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: block;
+}
+input[type=submit]{
+    width: 80px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 10px;
+    background-color: saddlebrown;
+    color: white;
+    font-weight: bolder;
+}
